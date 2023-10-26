@@ -4,10 +4,9 @@ Trabalho de Conclusão de Curso (TCC) sobre um site de varejo. Contém código-f
 Necessário intalar as dependenncias node
 
 Digite o comando para iniciar o projeto e vá apertando ENTER para confirmar as configurações do projeto:
-´´´
+'''
   npm init
-  
-´´´
+'''
 Para instalar a extensão que reinicia a aplicação automaticamente:
 ´´´
   npm install --save-dev nodemon
