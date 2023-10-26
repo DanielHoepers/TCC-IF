@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site de varejo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="loja.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+</head>
+
+<body>
+  <div class="header">
+    <div class="container">
+      <header>
+        <ul>
+          <li class="logo"><a href="#"><img class="logo-img" src="sinal-de-interrogacao.png" alt="Logo"></a></li>
+          <div id="barraPesquisa">
+            <li class="search">
+              <input id="barra" placeholder="Pesquisar..." type="text">
+              <button type="submit"><img id="lupa" src="lupa.png" alt=""></button>
+            </li>
+          </div>
+          <ul class="nav-links">
+            <li><a href="index (1).html" class="linkHeader"><img src="sinal-de-interrogacao.png" alt=""
+                  class="imgsHeader"></a></li>
+            <li><a href="perfil.html" class="linkHeader"><img src="perfil.png" alt="" class="imgsHeader"></a></li>
+            <li><a href="" class="linkHeader"><img src="linhas-de-opcoes.png" alt="" class="imgsHeader"></a></li>
+            <li><a href="carrinho.html" class="linkHeader"><img src="carrinho-de-compras.png" alt=""
+                  class="imgsHeader"></a></li>
+          </ul>
+        </ul>
+      </header>
+    </div>
+  </div>
+  <div class="container">
+
+    <div>
+
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="" alt="Primeiro Slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="" alt="Segundo Slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="" alt="Terceiro Slide">
+            </div>
+          </div>
+
+
+
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <section class="py-5">
+      <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!-- Product image-->
+              <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder">Fancy Product</h5>
+                  <!-- Product price-->
+                  $40.00 - $80.00
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <button class="CartBtn">
+                  <span class="IconContainer">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)"
+                      class="cart">
+                      <path
+                        d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z">
+                      </path>
+                    </svg>
+                  </span>
+                  <p class="text">Comprar</p>
+                </button></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-5">
+
+            <div class="card h-100">
+              <!-- Product image-->
+              <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder">Fancy Product</h5>
+                  <!-- Product price-->
+                  $40.00 - $80.00
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <button class="CartBtn">
+                  <span class="IconContainer">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart">
+                      <path
+                        d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z">
+                      </path>
+                    </svg>
+                  </span>
+                  <p class="text">Comprar</p>
+                </button></a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!-- Product image-->
+              <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder">Fancy Product</h5>
+                  <!-- Product price-->
+                  $40.00 - $80.00
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <button class="CartBtn">
+                  <span class="IconContainer">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)"
+                      class="cart">
+                      <path
+                        d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z">
+                      </path>
+                    </svg>
+                  </span>
+                  <p class="text">Comprar</p>
+                </button></a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!-- Product image-->
+              <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder">Fancy Product</h5>
+                  <!-- Product price-->
+                  $40.00 - $80.00
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <button class="CartBtn">
+                  <span class="IconContainer">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)"
+                      class="cart">
+                      <path
+                        d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z">
+                      </path>
+                    </svg>
+                  </span>
+                  <p class="text">Comprar</p>
+                </button></a>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+      <h1 class="text-center mb-4">Departamentos</h1>
+      <div id="departamentos">
+        <div class="linha">
+          <div class="departamento"><a href="https://www.kabum.com.br/?gclid=EAIaIQobChMI9IGGwLzNgAMVKuxcCh0L6AaHEAAYASAAEgJom_D_BwE"class=""><img class="imgDepartamento" src="pouter-3-rgb-water-cooler-01_10.jpg" alt=""></img></a></div>
+
+
+          <div class="departamento"><a href="https://www.pichau.com.br/?gclid=Cj0KCQjwz8emBhDrARIsANNJjS5nLBYmznQN3IOVG0Xf7_I_RfeldIwm9x8h5HudGOEK4mm2-jR4RvcaAjXeEALw_wcB" class=""><img class="imgDepartamento" src="geladeira-brastemp-brh85ak-lateral-1.webp" alt=""></img></a></div>
+
+
+          <div class="departamento"><a href="https://www.amazon.com.br/prime" class=""><img class="imgDepartamento" src="cannes-3.webp" alt=""></img></a></div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+  </div>
+
+  <footer>
+    <p>© 2023 Meu Site. Todos os direitos reservados.</p>
+  </footer>
+  <script src="loja.js"></script>
+
+
+</body>
+
+</html>
