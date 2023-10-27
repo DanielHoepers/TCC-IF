@@ -1,0 +1,178 @@
+
+
+#infoProduto{
+    border: 1px solid #ccc;
+    height: 1000px;
+    width: 800px;
+    margin: 25px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#comprarProduto {
+    border: 1px solid #ccc;
+    height: 1000px;
+    width: 225px;
+    margin: 25px 25px 25px 0px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+
+}
+
+
+#fotoProduto{
+
+height: 300px;
+width: 300px;
+margin: 25px;
+}
+
+
+#descricaoProduto{
+    height:300px;
+    width: 450px;
+    margin: 25px 25px 25px 0px;
+
+
+
+}
+
+img{
+ max-height: 300px;
+max-width: 300px;
+}
+
+#nomeProduto{
+    font-size: 2em;
+  font-weight: bold;
+  color: #000000; 
+  margin-bottom: 10px;
+text-align: justify;
+
+
+
+}
+
+
+#descricao{
+    font-size: 1em;
+    font-weight: bold;
+    color: #6e6e6e; 
+    margin: 20px 0px 20px 0px;
+    text-align: justify;
+}
+
+.preco2{
+    color: #00a202;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#precoA{
+    color: #00a202;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+#precoB{
+    color: red;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.preco1{
+    color: red;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#ca{
+    border: 1px solid #ccc;
+    height: 600px;
+    width: 750px;
+    margin: 25px;
+}
+
+.btn {
+    margin: 20px 0px 0px 37.5px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid #00a202;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+    background-color: #00a202;
+  }
+  
+  .btn:hover {
+    color: white;
+  }
+  
+  .btn::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: -40px;
+    transform: skewX(45deg);
+    background-color: #047606;
+    z-index: -1;
+    transition: all 1s;
+  }
+  
+  .btn:hover::before {
+    width: 160%;
+  }
+
+  #resultado{
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 14px;
+   
+  }
+
+  #cepDiv{
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 3px;
+    background-color: #c5c5c5;
+    
+  }
+
+  #cep{
+    height: 30px;
+    width: 150px;
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+  }
+
+  #btnCep{
+height: 30px;
+width: 55px;
+ padding: 0px;
+ border-radius: 10px;
+
+  } 
+  #fotoCep{
+    height: 30px;
+    width: 30px;
+   
+      }
+
+      .fotoMoney{
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 20px;
+        width: 20px;
+        margin-right: 10px;
+      }
